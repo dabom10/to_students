@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to SQLite database (or create it if it doesn't exist)
-connection = sqlite3.connect('/home/rokey/Documents/rokey_ws/src/day5/mydatabase.db')
+connection = sqlite3.connect('mydatabase.db')
 
 # Create a cursor object to interact with the database
 cursor = connection.cursor()
